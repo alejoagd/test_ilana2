@@ -3,7 +3,7 @@ def foo_bar(n):
     divisible_by_3 = n % 3 == 0
     divisible_by_5 = n % 5 == 0
 
-    # Validacion de las condiciones y mostrar el resultado
+    # Validacion de las condiciones 
     if divisible_by_3 and divisible_by_5:
         return "FooBar"
     elif divisible_by_3:

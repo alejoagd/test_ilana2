@@ -3,7 +3,7 @@ def es_numero_feliz(n):
         # Función auxiliar para calcular la suma de los cuadrados de los dígitos
         return sum(int(digit) ** 2 for digit in str(num))
 
-    # Utilizamos un conjunto para detectar ciclos infinitos
+    # Conjunto para detectar ciclos infinitos
     seen_numbers = set()
 
     while n != 1 and n not in seen_numbers:
